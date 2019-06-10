@@ -1,0 +1,12 @@
+define run
+  continue
+end
+
+shell start /MIN picosky-gdbserver -u
+target remote localhost:2000
+set remotetimeout 10
+monitor halt
+load ../../bin/Debug/CANTS-MCU.elf
+monitor reset
+monitor init
+flush regs
