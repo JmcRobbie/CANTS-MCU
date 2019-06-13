@@ -51,6 +51,7 @@ static void redundancy_task(void *arg)
 				/* switch CAN bus */
 				bus = !bus;
 				candrv_set_bus(bus);
+				switches++;
 			}
 			misses = 0;
 		}
