@@ -54,7 +54,7 @@ Block transfer application layer simulates simple memory device 256B in size.
 
 Project documentation can be build with doxygen with configuration file provided in doc folder.
 
-Detailed CAN-TS protocol description can be found [here](https://support.skylabs.si/public/CAN-TS_protocol_v1.4.pdf).
+Detailed CAN-TS protocol description can be found [here](https://support.skylabs.si/public/CAN-TS_protocol_v1.4.pdf) and presentation [here](https://support.skylabs.si/public/CAN-TS_protocol_presentation_v1.0.pdf).
 
 ## License
 
