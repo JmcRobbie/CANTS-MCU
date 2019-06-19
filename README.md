@@ -24,7 +24,7 @@ Project can be build by selecting Project -> Build All in Eclipse menu.
 
 ### Uploading
 
- Firmware can be uploaded and run by selecting Run -> Debug in Eclipse menu or pressing F11. 
+Firmware can be uploaded and run by selecting Run -> Debug in Eclipse menu or pressing F11.
 
 ### Communicating with the board
 
@@ -48,13 +48,18 @@ Block transfer application layer simulates simple memory device 256B in size.
 
 | Address | Size | Description |
 | :---: | :---: | :--- |
-| 0 | 256 | Memory, which can be written and read with Set and Get Block tranfers, respectively
+| 0 | 256 | Memory, which can be written and read with Set and Get Block transfers, respectively
 
 ## Documentation
 
 Project documentation can be build with doxygen with configuration file provided in doc folder.
 
-Detailed CAN-TS protocol description can be found [here](https://support.skylabs.si/public/CAN-TS_protocol_v1.4.pdf) and presentation [here](https://support.skylabs.si/public/CAN-TS_protocol_presentation_v1.0.pdf).
+Following external documents are available:
+
+| Name| Type | Version | Date |
+| :--- | :---: | :---: | :---: |
+| [CAN-TS protocol](https://support.skylabs.si/public/CAN-TS_protocol_v1.4.pdf) | pdf | 1.4 | 06/2019 |
+| [CAN-TS overview presentation](https://support.skylabs.si/public/CAN-TS_protocol_presentation_v1.0.pdf) | pdf | 1.0 | 06/2019 |
 
 ## License
 
